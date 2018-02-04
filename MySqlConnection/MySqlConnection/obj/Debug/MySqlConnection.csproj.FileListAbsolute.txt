@@ -6,3 +6,6 @@ E:\IT\GitHub\Cuelogic\MySqlConnection\MySqlConnection\bin\Debug\MySql.Data.dll
 E:\IT\GitHub\Cuelogic\MySqlConnection\MySqlConnection\bin\Debug\MySql.Data.xml
 E:\IT\GitHub\Cuelogic\MySqlConnection\MySqlConnection\obj\Debug\MySqlConnection.exe
 E:\IT\GitHub\Cuelogic\MySqlConnection\MySqlConnection\obj\Debug\MySqlConnection.pdb
+E:\IT\GitHub\Cuelogic\Oledb\MySqlConnection\MySqlConnection\bin\Debug\MySqlConnection.exe.config
+E:\IT\GitHub\Cuelogic\Oledb\MySqlConnection\MySqlConnection\obj\Debug\MySqlConnection.exe
+E:\IT\GitHub\Cuelogic\Oledb\MySqlConnection\MySqlConnection\obj\Debug\MySqlConnection.pdb

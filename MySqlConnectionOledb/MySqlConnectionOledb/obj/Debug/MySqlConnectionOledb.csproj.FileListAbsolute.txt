@@ -5,3 +5,10 @@ E:\IT\GitHub\Cuelogic\MySqlConnectionOledb\MySqlConnectionOledb\obj\Debug\MySqlC
 E:\IT\GitHub\Cuelogic\MySqlConnectionOledb\MySqlConnectionOledb\obj\Debug\MySqlConnectionOledb.pdb
 E:\IT\GitHub\Cuelogic\MySqlConnectionOledb\MySqlConnectionOledb\bin\Debug\System.Data.DataSetExtensions.dll
 E:\IT\GitHub\Cuelogic\MySqlConnectionOledb\MySqlConnectionOledb\bin\Debug\System.Data.dll
+E:\IT\GitHub\Cuelogic\Oledb\MySqlConnectionOledb\MySqlConnectionOledb\obj\Debug\MySqlConnectionOledb.exe
+E:\IT\GitHub\Cuelogic\Oledb\MySqlConnectionOledb\MySqlConnectionOledb\obj\Debug\MySqlConnectionOledb.pdb
+E:\IT\GitHub\Cuelogic\Oledb\MySqlConnectionOledb\MySqlConnectionOledb\bin\Debug\MySqlConnectionOledb.exe
+E:\IT\GitHub\Cuelogic\Oledb\MySqlConnectionOledb\MySqlConnectionOledb\bin\Debug\MySqlConnectionOledb.pdb
+E:\IT\GitHub\Cuelogic\Oledb\MySqlConnectionOledb\MySqlConnectionOledb\bin\Debug\System.Data.DataSetExtensions.dll
+E:\IT\GitHub\Cuelogic\Oledb\MySqlConnectionOledb\MySqlConnectionOledb\bin\Debug\System.Data.dll
+E:\IT\GitHub\Cuelogic\Oledb\MySqlConnectionOledb\MySqlConnectionOledb\obj\Debug\MySqlConnectionOledb.csprojResolveAssemblyReference.cache

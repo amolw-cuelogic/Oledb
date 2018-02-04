@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.Odbc;
 using System.Data.OleDb;
 using System.Linq;
 using System.Text;
@@ -18,23 +19,28 @@ namespace MySqlConnectionOledb
             // "Password=Cuelogic;"
             //);
 
-            OleDbConnection conn = new OleDbConnection("Provider=MySQLProv;Server=localhost;Database=world;Uid=sa;Pwd=Cuelogic;");
-            string queryString = "SELECT * from world";
-            OleDbCommand command = new OleDbCommand(queryString, conn);
-            try
-            {
-                OleDbDataAdapter dt = new OleDbDataAdapter(command);
-                var ds = new DataSet();
+            //OleDbConnection conn = new OleDbConnection("Provider=MySQL;Server=localhost;Database=world;Uid=sa;Pwd=Cuelogic;");
+            //string queryString = "SELECT * from world";
+            //OleDbCommand command = new OleDbCommand(queryString, conn);
+            //try
+            //{
+            //    OleDbDataAdapter dt = new OleDbDataAdapter(command);
+            //    var ds = new DataSet();
 
-                conn.Open();
-                dt.Fill(ds);
+            //    //conn.Open();
+            //    dt.Fill(ds);
 
-            }
-            catch (Exception)
-            {
-                conn.Close();
-                throw;
-            }
+            //}
+            //catch (Exception)
+            //{
+            //    conn.Close();
+            //}
+            OdbcConnection con = new OdbcConnection("DRIVER={MySQL ODBC 5.3 ANSI Driver};SERVER=localhost;DATABASE=world;USER=root;PASSWORD=Cuelogic;OPTION=3;");
+            OdbcCommand cmd = new OdbcCommand("select * from city", con);
+            OdbcDataAdapter da = new OdbcDataAdapter(cmd);
+            DataSet ds = new DataSet();
+            da.Fill(ds); 
+            
         }
     }
 }
